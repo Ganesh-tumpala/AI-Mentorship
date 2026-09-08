@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 from typing import Literal, Optional
 from sklearn.metrics import classification_report, precision_recall_fscore_support, cohen_kappa_score
 
-F1_THRESHOLD = 0.65
+F1_THRESHOLD = 0.99
 MODEL_NAME = "openai/gpt-oss-120b"
 
 INJECTION_PATTERNS = [
